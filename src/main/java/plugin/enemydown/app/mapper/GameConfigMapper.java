@@ -26,4 +26,16 @@ public interface GameConfigMapper {
 
   @Update("update spawn_enemy set score = #{score} where enemy_name = #{enemyName} and difficulty = #{difficulty}")
   int updateEnemyScore(SpawnEnemy enemy);
+
+
+
 }
+
+
+
+
+
+
+
+
+
